@@ -1,6 +1,90 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+h1, h2, h3, h4, h5, h6 {
+  font-family:sans-serif;
 }
+header.page-header {
+ border-style: solid; 
+  padding: 4rem;
+  text-align: center;
+}
+.page-header h1 {
+  color:midnightblue;
+  margin-bottom:0;
+}
+.page-header p {
+  margin-top:0;
+  font-weight:bold;
+}
+.page-header small {
+  font-size: large;
+}
+header.page-header {
+  background-image: url("images/sand.jpg");
+}
+aside.more-info {
+  background: tan;
+  padding: 3rem; 
+}
+aside.more-info img {
+  height: 150px;
+    width: auto;
+}
+.more-info h2 {
+  margin-left: 50px;
+}
+.more-info p {
+  margin-left: 50px;
+}
+
+.more-info li {
+  display:inline;
+  padding:1rem;
+}
+
+section {
+  background-image: url("images/hard-paper-texture.jpg");
+  padding: 2rem;
+}
+
+body {
+  font-family:serif;
+  padding: 2rem;  
+}
+
+.poem {
+  list-style-type:none;
+  font-weight:bold; 
+  line-height: 2;
+  font-size: large;
+  margin: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section#content li::first-letter {
+ font-size:150%;
+ color:darkgreen;
+}
+footer.page-footer {
+  background-color: rgba(102,102,51,0.5);
+  border-style: solid; 
+  padding: 2rem;
+}
+footer.content-footer { 
+ background-image: url("images/hard-paper-texture.jpg"):
+}
+.content-footer p {
+  margin-left:230px;
+}
+.page-footer li {
+  display: inline;
+  padding:3rem;
+}
+.page-credits {
+  padding-top:2rem;
+}
+
+
+
